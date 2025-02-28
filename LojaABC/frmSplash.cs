@@ -10,14 +10,19 @@ using System.Windows.Forms;
 
 namespace LojaABC
 {
-    public partial class frmSplash : Form
+    public partial class frm : Form
     {
-        public frmSplash()
+        public frm()
         {
             InitializeComponent();
         }
 
         private void frmSplash_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }

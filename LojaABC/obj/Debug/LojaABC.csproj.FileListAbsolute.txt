@@ -7,4 +7,6 @@ C:\Users\wesley.sjesus7\Documents\Visual Studio 2019\transformeSe\LojaABC\obj\De
 C:\Users\wesley.sjesus7\Documents\Visual Studio 2019\transformeSe\LojaABC\obj\Debug\LojaABC.csproj.CoreCompileInputs.cache
 C:\Users\wesley.sjesus7\Documents\Visual Studio 2019\transformeSe\LojaABC\obj\Debug\LojaABC.exe
 C:\Users\wesley.sjesus7\Documents\Visual Studio 2019\transformeSe\LojaABC\obj\Debug\LojaABC.pdb
-C:\Users\wesley.sjesus7\Documents\Visual Studio 2019\transformeSe\LojaABC\obj\Debug\LojaABC.frmSplash.resources
+C:\Users\wesley.sjesus7\Documents\Visual Studio 2019\transformeSe\LojaABC\obj\Debug\LojaABC.frmLogin.resources
+C:\Users\wesley.sjesus7\Documents\Visual Studio 2019\transformeSe\LojaABC\obj\Debug\LojaABC.frm.resources
+C:\Users\wesley.sjesus7\Documents\Visual Studio 2019\transformeSe\LojaABC\obj\Debug\LojaABC.frmMenuPrincipal.resources
