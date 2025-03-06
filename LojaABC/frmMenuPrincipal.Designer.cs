@@ -68,6 +68,7 @@ namespace LojaABC
             this.button2.Text = "&Produtos";
             this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -75,7 +76,7 @@ namespace LojaABC
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
             this.button3.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button3.Location = new System.Drawing.Point(12, 328);
+            this.button3.Location = new System.Drawing.Point(12, 267);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(173, 230);
             this.button3.TabIndex = 2;
@@ -89,7 +90,7 @@ namespace LojaABC
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
             this.button4.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button4.Location = new System.Drawing.Point(212, 328);
+            this.button4.Location = new System.Drawing.Point(212, 267);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(173, 230);
             this.button4.TabIndex = 3;
@@ -117,7 +118,7 @@ namespace LojaABC
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
             this.button6.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button6.Location = new System.Drawing.Point(618, 12);
+            this.button6.Location = new System.Drawing.Point(608, 12);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(173, 230);
             this.button6.TabIndex = 5;
@@ -131,13 +132,14 @@ namespace LojaABC
             this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
             this.button7.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button7.Location = new System.Drawing.Point(618, 328);
+            this.button7.Location = new System.Drawing.Point(608, 267);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(173, 230);
             this.button7.TabIndex = 6;
-            this.button7.Text = "&Funcionários";
+            this.button7.Text = "&Usuários";
             this.button7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button8
             // 
@@ -145,7 +147,7 @@ namespace LojaABC
             this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button8.Image = ((System.Drawing.Image)(resources.GetObject("button8.Image")));
             this.button8.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button8.Location = new System.Drawing.Point(412, 328);
+            this.button8.Location = new System.Drawing.Point(412, 267);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(173, 230);
             this.button8.TabIndex = 7;
@@ -155,18 +157,23 @@ namespace LojaABC
             // 
             // button9
             // 
-            this.button9.Location = new System.Drawing.Point(618, 578);
+            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button9.Image = ((System.Drawing.Image)(resources.GetObject("button9.Image")));
+            this.button9.Location = new System.Drawing.Point(608, 503);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(173, 60);
+            this.button9.Size = new System.Drawing.Size(173, 46);
             this.button9.TabIndex = 8;
             this.button9.Text = "Voltar";
+            this.button9.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button9.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // frmMenuPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1280, 649);
+            this.ClientSize = new System.Drawing.Size(784, 561);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);

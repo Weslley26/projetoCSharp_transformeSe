@@ -10,3 +10,4 @@ C:\Users\wesley.sjesus7\Documents\Visual Studio 2019\transformeSe\LojaABC\obj\De
 C:\Users\wesley.sjesus7\Documents\Visual Studio 2019\transformeSe\LojaABC\obj\Debug\LojaABC.frmLogin.resources
 C:\Users\wesley.sjesus7\Documents\Visual Studio 2019\transformeSe\LojaABC\obj\Debug\LojaABC.frm.resources
 C:\Users\wesley.sjesus7\Documents\Visual Studio 2019\transformeSe\LojaABC\obj\Debug\LojaABC.frmMenuPrincipal.resources
+C:\Users\wesley.sjesus7\Documents\Visual Studio 2019\transformeSe\LojaABC\obj\Debug\LojaABC.frmFuncionarios.resources
