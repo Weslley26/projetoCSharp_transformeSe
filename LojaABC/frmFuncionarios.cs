@@ -46,5 +46,10 @@ namespace LojaABC
         {
 
         }
+
+        private void frmFuncionarios_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -10,20 +10,16 @@ using System.Windows.Forms;
 
 namespace LojaABC
 {
-    public partial class frmSplash : Form
+    public partial class frmPesquisarFuncionarios : Form
     {
-        public frmSplash()
+        public frmPesquisarFuncionarios()
         {
             InitializeComponent();
         }
 
-        private void frmSplash_Load(object sender, EventArgs e)
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
 
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
 
         }
     }

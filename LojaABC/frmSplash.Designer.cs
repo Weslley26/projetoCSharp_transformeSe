@@ -1,7 +1,7 @@
 ﻿
 namespace LojaABC
 {
-    partial class frm
+    partial class frmSplash
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace LojaABC
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSplash));
             this.pctLogo = new System.Windows.Forms.PictureBox();
             this.lblNumero = new System.Windows.Forms.Label();
             this.lblporcetagem = new System.Windows.Forms.Label();
@@ -40,7 +40,7 @@ namespace LojaABC
             // pctLogo
             // 
             this.pctLogo.Image = ((System.Drawing.Image)(resources.GetObject("pctLogo.Image")));
-            this.pctLogo.Location = new System.Drawing.Point(233, 103);
+            this.pctLogo.Location = new System.Drawing.Point(233, 89);
             this.pctLogo.Name = "pctLogo";
             this.pctLogo.Size = new System.Drawing.Size(316, 217);
             this.pctLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -72,12 +72,12 @@ namespace LojaABC
             // 
             this.pgbSplash.Location = new System.Drawing.Point(233, 332);
             this.pgbSplash.Name = "pgbSplash";
-            this.pgbSplash.Size = new System.Drawing.Size(266, 25);
+            this.pgbSplash.Size = new System.Drawing.Size(316, 25);
             this.pgbSplash.Style = System.Windows.Forms.ProgressBarStyle.Marquee;
             this.pgbSplash.TabIndex = 3;
             this.pgbSplash.Value = 70;
             // 
-            // frm
+            // frmSplash
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -89,7 +89,7 @@ namespace LojaABC
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimizeBox = false;
-            this.Name = "frm";
+            this.Name = "frmSplash";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LojaABC - Splash";
             this.Load += new System.EventHandler(this.frmSplash_Load);

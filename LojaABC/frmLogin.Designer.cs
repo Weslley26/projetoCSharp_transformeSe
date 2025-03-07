@@ -32,8 +32,8 @@ namespace LojaABC
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLogin));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblUsuario = new System.Windows.Forms.Label();
-            this.textUsuario = new System.Windows.Forms.TextBox();
-            this.textSenha = new System.Windows.Forms.TextBox();
+            this.txtUsuario = new System.Windows.Forms.TextBox();
+            this.txtSenha = new System.Windows.Forms.TextBox();
             this.btnEntrar = new System.Windows.Forms.Button();
             this.btnSair = new System.Windows.Forms.Button();
             this.lblSenha = new System.Windows.Forms.Label();
@@ -64,34 +64,36 @@ namespace LojaABC
             this.lblUsuario.Text = "Usuário";
             this.lblUsuario.Click += new System.EventHandler(this.label1_Click);
             // 
-            // textUsuario
+            // txtUsuario
             // 
-            this.textUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textUsuario.Location = new System.Drawing.Point(484, 153);
-            this.textUsuario.MaxLength = 30;
-            this.textUsuario.Name = "textUsuario";
-            this.textUsuario.Size = new System.Drawing.Size(197, 26);
-            this.textUsuario.TabIndex = 0;
+            this.txtUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUsuario.Location = new System.Drawing.Point(484, 153);
+            this.txtUsuario.MaxLength = 30;
+            this.txtUsuario.Name = "txtUsuario";
+            this.txtUsuario.Size = new System.Drawing.Size(197, 26);
+            this.txtUsuario.TabIndex = 0;
+            this.txtUsuario.TextChanged += new System.EventHandler(this.txtUsuario_TextChanged);
             // 
-            // textSenha
+            // txtSenha
             // 
-            this.textSenha.Font = new System.Drawing.Font("Wingdings", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.textSenha.Location = new System.Drawing.Point(484, 245);
-            this.textSenha.MaxLength = 15;
-            this.textSenha.Name = "textSenha";
-            this.textSenha.PasswordChar = 'l';
-            this.textSenha.Size = new System.Drawing.Size(197, 25);
-            this.textSenha.TabIndex = 1;
+            this.txtSenha.Font = new System.Drawing.Font("Wingdings", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.txtSenha.Location = new System.Drawing.Point(484, 245);
+            this.txtSenha.MaxLength = 15;
+            this.txtSenha.Name = "txtSenha";
+            this.txtSenha.PasswordChar = 'l';
+            this.txtSenha.Size = new System.Drawing.Size(197, 25);
+            this.txtSenha.TabIndex = 1;
             // 
             // btnEntrar
             // 
             this.btnEntrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEntrar.Location = new System.Drawing.Point(484, 361);
+            this.btnEntrar.Location = new System.Drawing.Point(488, 361);
             this.btnEntrar.Name = "btnEntrar";
             this.btnEntrar.Size = new System.Drawing.Size(75, 29);
             this.btnEntrar.TabIndex = 2;
             this.btnEntrar.Text = "&Entrar";
             this.btnEntrar.UseVisualStyleBackColor = true;
+            this.btnEntrar.Click += new System.EventHandler(this.btnEntrar_Click);
             // 
             // btnSair
             // 
@@ -123,7 +125,6 @@ namespace LojaABC
             this.pctLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pctLogo.TabIndex = 0;
             this.pctLogo.TabStop = false;
-            this.pctLogo.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // frmLogin
             // 
@@ -133,8 +134,8 @@ namespace LojaABC
             this.Controls.Add(this.lblSenha);
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.btnEntrar);
-            this.Controls.Add(this.textSenha);
-            this.Controls.Add(this.textUsuario);
+            this.Controls.Add(this.txtSenha);
+            this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.lblUsuario);
             this.Controls.Add(this.pctLogo);
             this.Controls.Add(this.pictureBox1);
@@ -156,8 +157,8 @@ namespace LojaABC
 
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lblUsuario;
-        private System.Windows.Forms.TextBox textUsuario;
-        private System.Windows.Forms.TextBox textSenha;
+        private System.Windows.Forms.TextBox txtUsuario;
+        private System.Windows.Forms.TextBox txtSenha;
         private System.Windows.Forms.Button btnEntrar;
         private System.Windows.Forms.Button btnSair;
         private System.Windows.Forms.Label lblSenha;
