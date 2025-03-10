@@ -51,5 +51,10 @@ namespace LojaABC
         {
 
         }
+
+        private void cbbUf_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
