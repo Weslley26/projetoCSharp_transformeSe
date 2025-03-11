@@ -50,7 +50,7 @@ namespace LojaABC
             this.label10 = new System.Windows.Forms.Label();
             this.mskCelular = new System.Windows.Forms.MaskedTextBox();
             this.lblCelular = new System.Windows.Forms.Label();
-            this.pgbSexo = new System.Windows.Forms.GroupBox();
+            this.gpbSexo = new System.Windows.Forms.GroupBox();
             this.rdbFeminino = new System.Windows.Forms.RadioButton();
             this.rdbNaoDesejoInformar = new System.Windows.Forms.RadioButton();
             this.rdbMasculino = new System.Windows.Forms.RadioButton();
@@ -61,7 +61,7 @@ namespace LojaABC
             this.lblCPF = new System.Windows.Forms.Label();
             this.txtNome = new System.Windows.Forms.TextBox();
             this.lblNome = new System.Windows.Forms.Label();
-            this.txtcodigo = new System.Windows.Forms.TextBox();
+            this.txtCodigo = new System.Windows.Forms.TextBox();
             this.lblCodigo = new System.Windows.Forms.Label();
             this.gpbEndereco = new System.Windows.Forms.GroupBox();
             this.cbbUF = new System.Windows.Forms.ComboBox();
@@ -105,7 +105,7 @@ namespace LojaABC
             this.gpbDadosPessoias.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
-            this.pgbSexo.SuspendLayout();
+            this.gpbSexo.SuspendLayout();
             this.gpbEndereco.SuspendLayout();
             this.groupBox6.SuspendLayout();
             this.groupBox7.SuspendLayout();
@@ -117,7 +117,7 @@ namespace LojaABC
             this.gpbDadosPessoias.Controls.Add(this.groupBox3);
             this.gpbDadosPessoias.Controls.Add(this.mskCelular);
             this.gpbDadosPessoias.Controls.Add(this.lblCelular);
-            this.gpbDadosPessoias.Controls.Add(this.pgbSexo);
+            this.gpbDadosPessoias.Controls.Add(this.gpbSexo);
             this.gpbDadosPessoias.Controls.Add(this.dtpDataDeNascimento);
             this.gpbDadosPessoias.Controls.Add(this.lblDataNascimento);
             this.gpbDadosPessoias.Controls.Add(this.mskCPF);
@@ -125,7 +125,7 @@ namespace LojaABC
             this.gpbDadosPessoias.Controls.Add(this.lblCPF);
             this.gpbDadosPessoias.Controls.Add(this.txtNome);
             this.gpbDadosPessoias.Controls.Add(this.lblNome);
-            this.gpbDadosPessoias.Controls.Add(this.txtcodigo);
+            this.gpbDadosPessoias.Controls.Add(this.txtCodigo);
             this.gpbDadosPessoias.Controls.Add(this.lblCodigo);
             this.gpbDadosPessoias.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gpbDadosPessoias.Location = new System.Drawing.Point(9, 12);
@@ -322,18 +322,18 @@ namespace LojaABC
             this.lblCelular.TabIndex = 15;
             this.lblCelular.Text = "Celular";
             // 
-            // pgbSexo
+            // gpbSexo
             // 
-            this.pgbSexo.Controls.Add(this.rdbFeminino);
-            this.pgbSexo.Controls.Add(this.rdbNaoDesejoInformar);
-            this.pgbSexo.Controls.Add(this.rdbMasculino);
-            this.pgbSexo.Location = new System.Drawing.Point(20, 115);
-            this.pgbSexo.Name = "pgbSexo";
-            this.pgbSexo.Size = new System.Drawing.Size(214, 125);
-            this.pgbSexo.TabIndex = 14;
-            this.pgbSexo.TabStop = false;
-            this.pgbSexo.Text = "Sexo";
-            this.pgbSexo.Enter += new System.EventHandler(this.groupBox2_Enter);
+            this.gpbSexo.Controls.Add(this.rdbFeminino);
+            this.gpbSexo.Controls.Add(this.rdbNaoDesejoInformar);
+            this.gpbSexo.Controls.Add(this.rdbMasculino);
+            this.gpbSexo.Location = new System.Drawing.Point(20, 115);
+            this.gpbSexo.Name = "gpbSexo";
+            this.gpbSexo.Size = new System.Drawing.Size(214, 125);
+            this.gpbSexo.TabIndex = 14;
+            this.gpbSexo.TabStop = false;
+            this.gpbSexo.Text = "Sexo";
+            this.gpbSexo.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
             // rdbFeminino
             // 
@@ -428,13 +428,13 @@ namespace LojaABC
             this.lblNome.TabIndex = 2;
             this.lblNome.Text = "Nome";
             // 
-            // txtcodigo
+            // txtCodigo
             // 
-            this.txtcodigo.Location = new System.Drawing.Point(81, 25);
-            this.txtcodigo.MaxLength = 10;
-            this.txtcodigo.Name = "txtcodigo";
-            this.txtcodigo.Size = new System.Drawing.Size(100, 26);
-            this.txtcodigo.TabIndex = 1;
+            this.txtCodigo.Location = new System.Drawing.Point(81, 25);
+            this.txtCodigo.MaxLength = 10;
+            this.txtCodigo.Name = "txtCodigo";
+            this.txtCodigo.Size = new System.Drawing.Size(100, 26);
+            this.txtCodigo.TabIndex = 1;
             // 
             // lblCodigo
             // 
@@ -893,8 +893,8 @@ namespace LojaABC
             this.groupBox3.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
-            this.pgbSexo.ResumeLayout(false);
-            this.pgbSexo.PerformLayout();
+            this.gpbSexo.ResumeLayout(false);
+            this.gpbSexo.PerformLayout();
             this.gpbEndereco.ResumeLayout(false);
             this.gpbEndereco.PerformLayout();
             this.groupBox6.ResumeLayout(false);
@@ -908,7 +908,7 @@ namespace LojaABC
         #endregion
 
         private System.Windows.Forms.GroupBox gpbDadosPessoias;
-        private System.Windows.Forms.TextBox txtcodigo;
+        private System.Windows.Forms.TextBox txtCodigo;
         private System.Windows.Forms.Label lblCodigo;
         private System.Windows.Forms.DateTimePicker dtpDataDeNascimento;
         private System.Windows.Forms.Label lblDataNascimento;
@@ -917,7 +917,7 @@ namespace LojaABC
         private System.Windows.Forms.Label lblCPF;
         private System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.Label lblNome;
-        private System.Windows.Forms.GroupBox pgbSexo;
+        private System.Windows.Forms.GroupBox gpbSexo;
         private System.Windows.Forms.RadioButton rdbNaoDesejoInformar;
         private System.Windows.Forms.RadioButton rdbMasculino;
         private System.Windows.Forms.RadioButton rdbFeminino;
