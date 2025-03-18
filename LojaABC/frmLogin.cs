@@ -15,10 +15,6 @@ namespace LojaABC
         public frmLogin()
         {
             InitializeComponent();
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
 
         }
 
@@ -36,17 +32,51 @@ namespace LojaABC
         {
 
         }
-
-        private void txtUsuario_TextChanged(object sender, EventArgs e)
+        //limpando Campos 
+        public void limparCampos()
         {
+            txtUsuario.Clear();
+            txtSenha.Clear();
+            txtUsuario.Focus();
 
+        }
+
+        private void txtUsuario_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                txtSenha.Focus();
+            }
+        }
+
+        private void txtSenha_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                txtSenha.Focus();
+            }
         }
 
         private void btnEntrar_Click(object sender, EventArgs e)
         {
-            frmMenuPrincipal abrir = new frmMenuPrincipal();
-            abrir.Show();
-            this.Hide();
+                //Declarendo as variáveis do tipo string
+                string usuario, senha;
+
+                usuario = txtUsuario.Text;
+                senha = txtSenha.Text;
+                if (usuario.Equals("senac") && senha.Equals("senac"))
+                {
+                    frmMenuPrincipal abrir = new frmMenuPrincipal();
+                    abrir.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Usuário ou senha Invalido", "mensagem do sistema", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
+                //Chamando o métudo limparCampos()
+                limparCampos();
+                }
+            }
         }
     }
-}
+

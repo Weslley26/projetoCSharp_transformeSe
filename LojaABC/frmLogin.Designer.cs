@@ -37,21 +37,18 @@ namespace LojaABC
             this.btnEntrar = new System.Windows.Forms.Button();
             this.btnSair = new System.Windows.Forms.Button();
             this.lblSenha = new System.Windows.Forms.Label();
-            this.pctLogo = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pctLogo)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(136, 106);
+            this.pictureBox1.Location = new System.Drawing.Point(56, 62);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(322, 284);
+            this.pictureBox1.Size = new System.Drawing.Size(365, 387);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // lblUsuario
             // 
@@ -72,7 +69,7 @@ namespace LojaABC
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(197, 26);
             this.txtUsuario.TabIndex = 0;
-            this.txtUsuario.TextChanged += new System.EventHandler(this.txtUsuario_TextChanged);
+            this.txtUsuario.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtUsuario_KeyDown);
             // 
             // txtSenha
             // 
@@ -83,6 +80,7 @@ namespace LojaABC
             this.txtSenha.PasswordChar = 'l';
             this.txtSenha.Size = new System.Drawing.Size(197, 25);
             this.txtSenha.TabIndex = 1;
+            this.txtSenha.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtSenha_KeyDown);
             // 
             // btnEntrar
             // 
@@ -104,7 +102,6 @@ namespace LojaABC
             this.btnSair.TabIndex = 3;
             this.btnSair.Text = "Sai&r";
             this.btnSair.UseVisualStyleBackColor = true;
-            this.btnSair.Click += new System.EventHandler(this.button2_Click);
             // 
             // lblSenha
             // 
@@ -115,16 +112,6 @@ namespace LojaABC
             this.lblSenha.Size = new System.Drawing.Size(56, 20);
             this.lblSenha.TabIndex = 6;
             this.lblSenha.Text = "Senha";
-            // 
-            // pctLogo
-            // 
-            this.pctLogo.Image = ((System.Drawing.Image)(resources.GetObject("pctLogo.Image")));
-            this.pctLogo.Location = new System.Drawing.Point(136, 106);
-            this.pctLogo.Name = "pctLogo";
-            this.pctLogo.Size = new System.Drawing.Size(322, 284);
-            this.pctLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pctLogo.TabIndex = 0;
-            this.pctLogo.TabStop = false;
             // 
             // frmLogin
             // 
@@ -137,7 +124,6 @@ namespace LojaABC
             this.Controls.Add(this.txtSenha);
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.lblUsuario);
-            this.Controls.Add(this.pctLogo);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -147,7 +133,6 @@ namespace LojaABC
             this.Text = "LojaABC - Login";
             this.Load += new System.EventHandler(this.frmLogin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pctLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -162,6 +147,5 @@ namespace LojaABC
         private System.Windows.Forms.Button btnEntrar;
         private System.Windows.Forms.Button btnSair;
         private System.Windows.Forms.Label lblSenha;
-        private System.Windows.Forms.PictureBox pctLogo;
     }
 }
