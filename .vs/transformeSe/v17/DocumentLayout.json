@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\wesley.sjesus7\\Documents\\Visual Studio 2019\\transformeSe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{00F19F05-0B94-4314-8963-40AE532852C5}|LojaABC\\LojaABC.csproj|c:\\users\\wesley.sjesus7\\documents\\visual studio 2019\\transformese\\lojaabc\\frmmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{00F19F05-0B94-4314-8963-40AE532852C5}|LojaABC\\LojaABC.csproj|solutionrelative:lojaabc\\frmmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{00F19F05-0B94-4314-8963-40AE532852C5}|LojaABC\\LojaABC.csproj|c:\\users\\wesley.sjesus7\\documents\\visual studio 2019\\transformese\\lojaabc\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00F19F05-0B94-4314-8963-40AE532852C5}|LojaABC\\LojaABC.csproj|solutionrelative:lojaabc\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00F19F05-0B94-4314-8963-40AE532852C5}|LojaABC\\LojaABC.csproj|c:\\users\\wesley.sjesus7\\documents\\visual studio 2019\\transformese\\lojaabc\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00F19F05-0B94-4314-8963-40AE532852C5}|LojaABC\\LojaABC.csproj|solutionrelative:lojaabc\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{00F19F05-0B94-4314-8963-40AE532852C5}|LojaABC\\LojaABC.csproj|c:\\users\\wesley.sjesus7\\documents\\visual studio 2019\\transformese\\lojaabc\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{00F19F05-0B94-4314-8963-40AE532852C5}|LojaABC\\LojaABC.csproj|solutionrelative:lojaabc\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00F19F05-0B94-4314-8963-40AE532852C5}|LojaABC\\LojaABC.csproj|c:\\users\\wesley.sjesus7\\documents\\visual studio 2019\\transformese\\lojaabc\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{00F19F05-0B94-4314-8963-40AE532852C5}|LojaABC\\LojaABC.csproj|solutionrelative:lojaabc\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00F19F05-0B94-4314-8963-40AE532852C5}|LojaABC\\LojaABC.csproj|c:\\users\\wesley.sjesus7\\documents\\visual studio 2019\\transformese\\lojaabc\\frmmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00F19F05-0B94-4314-8963-40AE532852C5}|LojaABC\\LojaABC.csproj|solutionrelative:lojaabc\\frmmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{00F19F05-0B94-4314-8963-40AE532852C5}|LojaABC\\LojaABC.csproj|c:\\users\\wesley.sjesus7\\documents\\visual studio 2019\\transformese\\lojaabc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00F19F05-0B94-4314-8963-40AE532852C5}|LojaABC\\LojaABC.csproj|solutionrelative:lojaabc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +22,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmMenuPrincipal.cs",
-              "DocumentMoniker": "C:\\Users\\wesley.sjesus7\\Documents\\Visual Studio 2019\\transformeSe\\LojaABC\\frmMenuPrincipal.cs",
-              "RelativeDocumentMoniker": "LojaABC\\frmMenuPrincipal.cs",
-              "ToolTip": "C:\\Users\\wesley.sjesus7\\Documents\\Visual Studio 2019\\transformeSe\\LojaABC\\frmMenuPrincipal.cs",
-              "RelativeToolTip": "LojaABC\\frmMenuPrincipal.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAADwvyEAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T19:40:43.479Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmMenuPrincipal.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\wesley.sjesus7\\Documents\\Visual Studio 2019\\transformeSe\\LojaABC\\frmMenuPrincipal.cs",
-              "RelativeDocumentMoniker": "LojaABC\\frmMenuPrincipal.cs",
-              "ToolTip": "C:\\Users\\wesley.sjesus7\\Documents\\Visual Studio 2019\\transformeSe\\LojaABC\\frmMenuPrincipal.cs [Design]",
-              "RelativeToolTip": "LojaABC\\frmMenuPrincipal.cs [Design]",
+              "Title": "frmFuncionarios.cs",
+              "DocumentMoniker": "C:\\Users\\wesley.sjesus7\\Documents\\Visual Studio 2019\\transformeSe\\LojaABC\\frmFuncionarios.cs",
+              "RelativeDocumentMoniker": "LojaABC\\frmFuncionarios.cs",
+              "ToolTip": "C:\\Users\\wesley.sjesus7\\Documents\\Visual Studio 2019\\transformeSe\\LojaABC\\frmFuncionarios.cs",
+              "RelativeToolTip": "LojaABC\\frmFuncionarios.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAWwJcAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T19:19:02.881Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmLogin.cs",
-              "DocumentMoniker": "C:\\Users\\wesley.sjesus7\\Documents\\Visual Studio 2019\\transformeSe\\LojaABC\\frmLogin.cs",
-              "RelativeDocumentMoniker": "LojaABC\\frmLogin.cs",
-              "ToolTip": "C:\\Users\\wesley.sjesus7\\Documents\\Visual Studio 2019\\transformeSe\\LojaABC\\frmLogin.cs",
-              "RelativeToolTip": "LojaABC\\frmLogin.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAWwEwAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T16:42:56.017Z",
+              "WhenOpened": "2025-03-20T18:48:25.45Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "frmLogin.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\wesley.sjesus7\\Documents\\Visual Studio 2019\\transformeSe\\LojaABC\\frmLogin.cs",
-              "RelativeDocumentMoniker": "LojaABC\\frmLogin.cs",
-              "ToolTip": "C:\\Users\\wesley.sjesus7\\Documents\\Visual Studio 2019\\transformeSe\\LojaABC\\frmLogin.cs [Design]",
-              "RelativeToolTip": "LojaABC\\frmLogin.cs [Design]",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\wesley.sjesus7\\Documents\\Visual Studio 2019\\transformeSe\\LojaABC\\Program.cs",
+              "RelativeDocumentMoniker": "LojaABC\\Program.cs",
+              "ToolTip": "C:\\Users\\wesley.sjesus7\\Documents\\Visual Studio 2019\\transformeSe\\LojaABC\\Program.cs",
+              "RelativeToolTip": "LojaABC\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T16:41:33.629Z",
+              "WhenOpened": "2025-03-20T18:45:45.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmFuncionarios.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\wesley.sjesus7\\Documents\\Visual Studio 2019\\transformeSe\\LojaABC\\frmFuncionarios.cs",
+              "RelativeDocumentMoniker": "LojaABC\\frmFuncionarios.cs",
+              "ToolTip": "C:\\Users\\wesley.sjesus7\\Documents\\Visual Studio 2019\\transformeSe\\LojaABC\\frmFuncionarios.cs [Design]",
+              "RelativeToolTip": "LojaABC\\frmFuncionarios.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T18:45:40.939Z",
               "EditorCaption": " [Design]"
             }
           ]

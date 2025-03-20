@@ -29,11 +29,12 @@ namespace LojaABC
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSplash));
             this.pctLogo = new System.Windows.Forms.PictureBox();
             this.lblNumero = new System.Windows.Forms.Label();
-            this.lblporcetagem = new System.Windows.Forms.Label();
             this.pgbSplash = new System.Windows.Forms.ProgressBar();
+            this.tmrSplash = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pctLogo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -58,24 +59,18 @@ namespace LojaABC
             this.lblNumero.TabIndex = 1;
             this.lblNumero.Text = "0";
             // 
-            // lblporcetagem
-            // 
-            this.lblporcetagem.AutoSize = true;
-            this.lblporcetagem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblporcetagem.Location = new System.Drawing.Point(382, 309);
-            this.lblporcetagem.Name = "lblporcetagem";
-            this.lblporcetagem.Size = new System.Drawing.Size(23, 20);
-            this.lblporcetagem.TabIndex = 2;
-            this.lblporcetagem.Text = "%";
-            // 
             // pgbSplash
             // 
             this.pgbSplash.Location = new System.Drawing.Point(233, 332);
             this.pgbSplash.Name = "pgbSplash";
             this.pgbSplash.Size = new System.Drawing.Size(316, 25);
-            this.pgbSplash.Style = System.Windows.Forms.ProgressBarStyle.Marquee;
             this.pgbSplash.TabIndex = 3;
-            this.pgbSplash.Value = 70;
+            // 
+            // tmrSplash
+            // 
+            this.tmrSplash.Enabled = true;
+            this.tmrSplash.Interval = 1000;
+            this.tmrSplash.Tick += new System.EventHandler(this.tmrSplash_Tick);
             // 
             // frmSplash
             // 
@@ -83,7 +78,6 @@ namespace LojaABC
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 561);
             this.Controls.Add(this.pgbSplash);
-            this.Controls.Add(this.lblporcetagem);
             this.Controls.Add(this.lblNumero);
             this.Controls.Add(this.pctLogo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
@@ -103,7 +97,7 @@ namespace LojaABC
 
         private System.Windows.Forms.PictureBox pctLogo;
         private System.Windows.Forms.Label lblNumero;
-        private System.Windows.Forms.Label lblporcetagem;
         private System.Windows.Forms.ProgressBar pgbSplash;
+        private System.Windows.Forms.Timer tmrSplash;
     }
 }

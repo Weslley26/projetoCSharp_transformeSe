@@ -183,7 +183,7 @@ namespace LojaABC
             this.Controls.Add(this.btnProdutos);
             this.Controls.Add(this.btnVendas);
             this.Name = "frmMenuPrincipal";
-            this.Text = "S";
+            this.Text = "Menu Principal";
             this.Load += new System.EventHandler(this.frmMenuPrincipal_Load);
             this.ResumeLayout(false);
 

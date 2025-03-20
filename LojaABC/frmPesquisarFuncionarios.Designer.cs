@@ -29,18 +29,32 @@ namespace LojaABC
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPesquisarFuncionarios));
             System.Windows.Forms.Button btnLimpar;
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPesquisarFuncionarios));
             this.gpbPesquisarPor = new System.Windows.Forms.GroupBox();
-            this.lbldescriçao = new System.Windows.Forms.Label();
-            this.rdbCodigo = new System.Windows.Forms.RadioButton();
-            this.rdbNome = new System.Windows.Forms.RadioButton();
-            this.ltbPesquisar = new System.Windows.Forms.ListBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.rdbNome = new System.Windows.Forms.RadioButton();
+            this.rdbCodigo = new System.Windows.Forms.RadioButton();
+            this.lbldescriçao = new System.Windows.Forms.Label();
+            this.ltbPesquisar = new System.Windows.Forms.ListBox();
             this.btnPesquisar = new System.Windows.Forms.Button();
             btnLimpar = new System.Windows.Forms.Button();
             this.gpbPesquisarPor.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // btnLimpar
+            // 
+            btnLimpar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnLimpar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            btnLimpar.Image = ((System.Drawing.Image)(resources.GetObject("btnLimpar.Image")));
+            btnLimpar.Location = new System.Drawing.Point(666, 120);
+            btnLimpar.Name = "btnLimpar";
+            btnLimpar.Size = new System.Drawing.Size(116, 102);
+            btnLimpar.TabIndex = 6;
+            btnLimpar.Text = "&Limpar";
+            btnLimpar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            btnLimpar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            btnLimpar.UseVisualStyleBackColor = true;
             // 
             // gpbPesquisarPor
             // 
@@ -56,25 +70,13 @@ namespace LojaABC
             this.gpbPesquisarPor.TabStop = false;
             this.gpbPesquisarPor.Text = "Pesquisar por";
             // 
-            // lbldescriçao
+            // textBox1
             // 
-            this.lbldescriçao.AutoSize = true;
-            this.lbldescriçao.Location = new System.Drawing.Point(30, 70);
-            this.lbldescriçao.Name = "lbldescriçao";
-            this.lbldescriçao.Size = new System.Drawing.Size(80, 20);
-            this.lbldescriçao.TabIndex = 3;
-            this.lbldescriçao.Text = "Descrição";
-            // 
-            // rdbCodigo
-            // 
-            this.rdbCodigo.AutoSize = true;
-            this.rdbCodigo.Location = new System.Drawing.Point(126, 25);
-            this.rdbCodigo.Name = "rdbCodigo";
-            this.rdbCodigo.Size = new System.Drawing.Size(77, 24);
-            this.rdbCodigo.TabIndex = 1;
-            this.rdbCodigo.TabStop = true;
-            this.rdbCodigo.Text = "Código";
-            this.rdbCodigo.UseVisualStyleBackColor = true;
+            this.textBox1.Location = new System.Drawing.Point(116, 67);
+            this.textBox1.MaxLength = 100;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(360, 26);
+            this.textBox1.TabIndex = 3;
             // 
             // rdbNome
             // 
@@ -88,6 +90,26 @@ namespace LojaABC
             this.rdbNome.UseVisualStyleBackColor = true;
             this.rdbNome.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
+            // rdbCodigo
+            // 
+            this.rdbCodigo.AutoSize = true;
+            this.rdbCodigo.Location = new System.Drawing.Point(126, 25);
+            this.rdbCodigo.Name = "rdbCodigo";
+            this.rdbCodigo.Size = new System.Drawing.Size(77, 24);
+            this.rdbCodigo.TabIndex = 1;
+            this.rdbCodigo.TabStop = true;
+            this.rdbCodigo.Text = "Código";
+            this.rdbCodigo.UseVisualStyleBackColor = true;
+            // 
+            // lbldescriçao
+            // 
+            this.lbldescriçao.AutoSize = true;
+            this.lbldescriçao.Location = new System.Drawing.Point(30, 70);
+            this.lbldescriçao.Name = "lbldescriçao";
+            this.lbldescriçao.Size = new System.Drawing.Size(80, 20);
+            this.lbldescriçao.TabIndex = 3;
+            this.lbldescriçao.Text = "Descrição";
+            // 
             // ltbPesquisar
             // 
             this.ltbPesquisar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -97,14 +119,6 @@ namespace LojaABC
             this.ltbPesquisar.Name = "ltbPesquisar";
             this.ltbPesquisar.Size = new System.Drawing.Size(648, 104);
             this.ltbPesquisar.TabIndex = 4;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(116, 67);
-            this.textBox1.MaxLength = 100;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(360, 26);
-            this.textBox1.TabIndex = 3;
             // 
             // btnPesquisar
             // 
@@ -119,20 +133,6 @@ namespace LojaABC
             this.btnPesquisar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnPesquisar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnPesquisar.UseVisualStyleBackColor = true;
-            // 
-            // btnLimpar
-            // 
-            btnLimpar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            btnLimpar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            btnLimpar.Image = ((System.Drawing.Image)(resources.GetObject("btnLimpar.Image")));
-            btnLimpar.Location = new System.Drawing.Point(666, 120);
-            btnLimpar.Name = "btnLimpar";
-            btnLimpar.Size = new System.Drawing.Size(116, 102);
-            btnLimpar.TabIndex = 6;
-            btnLimpar.Text = "&Limpar";
-            btnLimpar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            btnLimpar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            btnLimpar.UseVisualStyleBackColor = true;
             // 
             // frmPesquisarFuncionarios
             // 
@@ -149,6 +149,7 @@ namespace LojaABC
             this.Name = "frmPesquisarFuncionarios";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LojaABC - Pesquisar Funcionários";
+            this.Load += new System.EventHandler(this.frmPesquisarFuncionarios_Load);
             this.gpbPesquisarPor.ResumeLayout(false);
             this.gpbPesquisarPor.PerformLayout();
             this.ResumeLayout(false);

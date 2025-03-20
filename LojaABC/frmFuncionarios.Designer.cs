@@ -66,7 +66,7 @@ namespace LojaABC
             this.gpbEndereco = new System.Windows.Forms.GroupBox();
             this.cbbUF = new System.Windows.Forms.ComboBox();
             this.lblUF = new System.Windows.Forms.Label();
-            this.mskEstado = new System.Windows.Forms.MaskedTextBox();
+            this.txtEstado = new System.Windows.Forms.MaskedTextBox();
             this.lblEstado = new System.Windows.Forms.Label();
             this.txtCidade = new System.Windows.Forms.TextBox();
             this.lblCidade = new System.Windows.Forms.Label();
@@ -430,6 +430,7 @@ namespace LojaABC
             // 
             // txtCodigo
             // 
+            this.txtCodigo.Enabled = false;
             this.txtCodigo.Location = new System.Drawing.Point(81, 25);
             this.txtCodigo.MaxLength = 10;
             this.txtCodigo.Name = "txtCodigo";
@@ -449,7 +450,7 @@ namespace LojaABC
             // 
             this.gpbEndereco.Controls.Add(this.cbbUF);
             this.gpbEndereco.Controls.Add(this.lblUF);
-            this.gpbEndereco.Controls.Add(this.mskEstado);
+            this.gpbEndereco.Controls.Add(this.txtEstado);
             this.gpbEndereco.Controls.Add(this.lblEstado);
             this.gpbEndereco.Controls.Add(this.txtCidade);
             this.gpbEndereco.Controls.Add(this.lblCidade);
@@ -503,7 +504,7 @@ namespace LojaABC
             "SP",
             "SE",
             "TO"});
-            this.cbbUF.Location = new System.Drawing.Point(53, 117);
+            this.cbbUF.Location = new System.Drawing.Point(53, 122);
             this.cbbUF.Name = "cbbUF";
             this.cbbUF.Size = new System.Drawing.Size(121, 28);
             this.cbbUF.TabIndex = 36;
@@ -518,12 +519,12 @@ namespace LojaABC
             this.lblUF.TabIndex = 35;
             this.lblUF.Text = "UF";
             // 
-            // mskEstado
+            // txtEstado
             // 
-            this.mskEstado.Location = new System.Drawing.Point(630, 66);
-            this.mskEstado.Name = "mskEstado";
-            this.mskEstado.Size = new System.Drawing.Size(100, 26);
-            this.mskEstado.TabIndex = 34;
+            this.txtEstado.Location = new System.Drawing.Point(630, 66);
+            this.txtEstado.Name = "txtEstado";
+            this.txtEstado.Size = new System.Drawing.Size(100, 26);
+            this.txtEstado.TabIndex = 34;
             // 
             // lblEstado
             // 
@@ -799,6 +800,7 @@ namespace LojaABC
             this.btnNovo.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnNovo.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnNovo.UseVisualStyleBackColor = true;
+            this.btnNovo.Click += new System.EventHandler(this.btnNovo_Click);
             // 
             // btnCadastra
             // 
@@ -810,6 +812,7 @@ namespace LojaABC
             this.btnCadastra.Text = "&Cadastrar";
             this.btnCadastra.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnCadastra.UseVisualStyleBackColor = true;
+            this.btnCadastra.Click += new System.EventHandler(this.btnCadastra_Click);
             // 
             // btnAlterar
             // 
@@ -843,6 +846,7 @@ namespace LojaABC
             this.btnLimpar.Text = "&Limpar";
             this.btnLimpar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // btnPesquisar
             // 
@@ -865,6 +869,7 @@ namespace LojaABC
             this.btnVoltar.Text = "&Voltar";
             this.btnVoltar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // frmFuncionarios
             // 
@@ -964,7 +969,7 @@ namespace LojaABC
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.ComboBox cbbUF;
         private System.Windows.Forms.Label lblUF;
-        private System.Windows.Forms.MaskedTextBox mskEstado;
+        private System.Windows.Forms.MaskedTextBox txtEstado;
         private System.Windows.Forms.Label lblEstado;
         private System.Windows.Forms.TextBox txtCidade;
         private System.Windows.Forms.Label lblCidade;

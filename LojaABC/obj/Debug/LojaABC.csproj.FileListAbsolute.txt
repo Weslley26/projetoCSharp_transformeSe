@@ -12,3 +12,4 @@ C:\Users\wesley.sjesus7\Documents\Visual Studio 2019\transformeSe\LojaABC\obj\De
 C:\Users\wesley.sjesus7\Documents\Visual Studio 2019\transformeSe\LojaABC\obj\Debug\LojaABC.frmFuncionarios.resources
 C:\Users\wesley.sjesus7\Documents\Visual Studio 2019\transformeSe\LojaABC\obj\Debug\LojaABC.frmPesquisarFuncionarios.resources
 C:\Users\wesley.sjesus7\Documents\Visual Studio 2019\transformeSe\LojaABC\obj\Debug\LojaABC.frmSplash.resources
+C:\Users\wesley.sjesus7\Documents\Visual Studio 2019\transformeSe\LojaABC\obj\Debug\LojaABC.frmSobreNos.resources
