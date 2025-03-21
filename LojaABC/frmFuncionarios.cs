@@ -143,6 +143,7 @@ namespace LojaABC
             rdbFeminino.Checked = false;
             rdbMasculino.Checked = false;
             rdbNaoDesejoInformar.Checked = false;
+            cbbUF.Text = "";
 
             txtLogradouro.Clear();
             txtNumero.Clear();
@@ -177,7 +178,25 @@ namespace LojaABC
             else
             {
                 MessageBox.Show("Cadastrar con Sucesso!!!");
+                limparCampos();
+                btnNovo.Enabled = true;
             }
            }
+
+        private void btnExcluir_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtCidade_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnPesquisar_Click(object sender, EventArgs e)
+        {
+            frmPesquisarFuncionarios abrir = new frmPesquisarFuncionarios();
+            abrir.ShowDialog();
         }
     }
+}

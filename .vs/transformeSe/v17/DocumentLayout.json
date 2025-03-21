@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\wesley.sjesus7\\Documents\\Visual Studio 2019\\transformeSe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{00F19F05-0B94-4314-8963-40AE532852C5}|LojaABC\\LojaABC.csproj|c:\\users\\wesley.sjesus7\\documents\\visual studio 2019\\transformese\\lojaabc\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00F19F05-0B94-4314-8963-40AE532852C5}|LojaABC\\LojaABC.csproj|solutionrelative:lojaabc\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00F19F05-0B94-4314-8963-40AE532852C5}|LojaABC\\LojaABC.csproj|c:\\users\\wesley.sjesus7\\documents\\visual studio 2019\\transformese\\lojaabc\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{00F19F05-0B94-4314-8963-40AE532852C5}|LojaABC\\LojaABC.csproj|solutionrelative:lojaabc\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00F19F05-0B94-4314-8963-40AE532852C5}|LojaABC\\LojaABC.csproj|c:\\users\\wesley.sjesus7\\documents\\visual studio 2019\\transformese\\lojaabc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00F19F05-0B94-4314-8963-40AE532852C5}|LojaABC\\LojaABC.csproj|solutionrelative:lojaabc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56757C5D-3FE6-4759-963F-36F6D92D1AB6}|Calculadora\\Calculadora.csproj|c:\\users\\wesley.sjesus7\\documents\\visual studio 2019\\transformese\\calculadora\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{56757C5D-3FE6-4759-963F-36F6D92D1AB6}|Calculadora\\Calculadora.csproj|solutionrelative:calculadora\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,39 +19,13 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmFuncionarios.cs",
-              "DocumentMoniker": "C:\\Users\\wesley.sjesus7\\Documents\\Visual Studio 2019\\transformeSe\\LojaABC\\frmFuncionarios.cs",
-              "RelativeDocumentMoniker": "LojaABC\\frmFuncionarios.cs",
-              "ToolTip": "C:\\Users\\wesley.sjesus7\\Documents\\Visual Studio 2019\\transformeSe\\LojaABC\\frmFuncionarios.cs",
-              "RelativeToolTip": "LojaABC\\frmFuncionarios.cs",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAWwJcAAAAcAAAAAAAAAA==",
+              "Title": "frmCalculadora.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\wesley.sjesus7\\Documents\\Visual Studio 2019\\transformeSe\\Calculadora\\frmCalculadora.cs",
+              "RelativeDocumentMoniker": "Calculadora\\frmCalculadora.cs",
+              "ToolTip": "C:\\Users\\wesley.sjesus7\\Documents\\Visual Studio 2019\\transformeSe\\Calculadora\\frmCalculadora.cs [Design]",
+              "RelativeToolTip": "Calculadora\\frmCalculadora.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T18:48:25.45Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\wesley.sjesus7\\Documents\\Visual Studio 2019\\transformeSe\\LojaABC\\Program.cs",
-              "RelativeDocumentMoniker": "LojaABC\\Program.cs",
-              "ToolTip": "C:\\Users\\wesley.sjesus7\\Documents\\Visual Studio 2019\\transformeSe\\LojaABC\\Program.cs",
-              "RelativeToolTip": "LojaABC\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T18:45:45.129Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmFuncionarios.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\wesley.sjesus7\\Documents\\Visual Studio 2019\\transformeSe\\LojaABC\\frmFuncionarios.cs",
-              "RelativeDocumentMoniker": "LojaABC\\frmFuncionarios.cs",
-              "ToolTip": "C:\\Users\\wesley.sjesus7\\Documents\\Visual Studio 2019\\transformeSe\\LojaABC\\frmFuncionarios.cs [Design]",
-              "RelativeToolTip": "LojaABC\\frmFuncionarios.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T18:45:40.939Z",
+              "WhenOpened": "2025-03-21T20:09:03.484Z",
               "EditorCaption": " [Design]"
             }
           ]

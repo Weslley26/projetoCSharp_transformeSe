@@ -24,7 +24,19 @@ namespace LojaABC
         public frmPesquisarFuncionarios()
         {
             InitializeComponent();
+            desabelitarCampos();
+
+
         }
+        public void desabelitarCampos()
+        {
+
+
+            rdbCodigo.Checked = false;
+            rdbNome.Checked = false;
+            txtDescricao.Focus();
+        }
+
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
@@ -37,6 +49,32 @@ namespace LojaABC
             IntPtr hMenu = GetSystemMenu(this.Handle, false);
             int MenuCount = GetMenuItemCount(hMenu) - 1;
             RemoveMenu(hMenu, MenuCount, MF_BYCOMMAND);
+
+        }
+
+        private void btnLimpar_Click(object sender, EventArgs e)
+        {
+            //executando o método limpar campos 
+            LimpaCampos();
+        }
+        //criando o método limpar campos 
+        public void LimpaCampos()
+        {
+            rdbCodigo.Checked = false ;
+            rdbNome.Checked = false ;
+            ltbPesquisar.Items.Clear();
+            txtDescricao.Clear();
+            txtDescricao.Focus();
+        }
+
+        private void btnPesquisar_Click(object sender, EventArgs e)
+        {
+            ltbPesquisar.Items.Add(txtDescricao.Text);
+            ltbPesquisar.Items.Clear();
+        }
+
+        private void txtDescricao_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }

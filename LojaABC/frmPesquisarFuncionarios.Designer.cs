@@ -32,7 +32,7 @@ namespace LojaABC
             System.Windows.Forms.Button btnLimpar;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPesquisarFuncionarios));
             this.gpbPesquisarPor = new System.Windows.Forms.GroupBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtDescricao = new System.Windows.Forms.TextBox();
             this.rdbNome = new System.Windows.Forms.RadioButton();
             this.rdbCodigo = new System.Windows.Forms.RadioButton();
             this.lbldescriçao = new System.Windows.Forms.Label();
@@ -55,10 +55,11 @@ namespace LojaABC
             btnLimpar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             btnLimpar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             btnLimpar.UseVisualStyleBackColor = true;
+            btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // gpbPesquisarPor
             // 
-            this.gpbPesquisarPor.Controls.Add(this.textBox1);
+            this.gpbPesquisarPor.Controls.Add(this.txtDescricao);
             this.gpbPesquisarPor.Controls.Add(this.rdbNome);
             this.gpbPesquisarPor.Controls.Add(this.rdbCodigo);
             this.gpbPesquisarPor.Controls.Add(this.lbldescriçao);
@@ -70,13 +71,14 @@ namespace LojaABC
             this.gpbPesquisarPor.TabStop = false;
             this.gpbPesquisarPor.Text = "Pesquisar por";
             // 
-            // textBox1
+            // txtDescricao
             // 
-            this.textBox1.Location = new System.Drawing.Point(116, 67);
-            this.textBox1.MaxLength = 100;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(360, 26);
-            this.textBox1.TabIndex = 3;
+            this.txtDescricao.Location = new System.Drawing.Point(116, 67);
+            this.txtDescricao.MaxLength = 100;
+            this.txtDescricao.Name = "txtDescricao";
+            this.txtDescricao.Size = new System.Drawing.Size(360, 26);
+            this.txtDescricao.TabIndex = 3;
+            this.txtDescricao.TextChanged += new System.EventHandler(this.txtDescricao_TextChanged);
             // 
             // rdbNome
             // 
@@ -85,7 +87,6 @@ namespace LojaABC
             this.rdbNome.Name = "rdbNome";
             this.rdbNome.Size = new System.Drawing.Size(69, 24);
             this.rdbNome.TabIndex = 2;
-            this.rdbNome.TabStop = true;
             this.rdbNome.Text = "Nome";
             this.rdbNome.UseVisualStyleBackColor = true;
             this.rdbNome.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
@@ -97,7 +98,6 @@ namespace LojaABC
             this.rdbCodigo.Name = "rdbCodigo";
             this.rdbCodigo.Size = new System.Drawing.Size(77, 24);
             this.rdbCodigo.TabIndex = 1;
-            this.rdbCodigo.TabStop = true;
             this.rdbCodigo.Text = "Código";
             this.rdbCodigo.UseVisualStyleBackColor = true;
             // 
@@ -133,6 +133,7 @@ namespace LojaABC
             this.btnPesquisar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnPesquisar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnPesquisar.UseVisualStyleBackColor = true;
+            this.btnPesquisar.Click += new System.EventHandler(this.btnPesquisar_Click);
             // 
             // frmPesquisarFuncionarios
             // 
@@ -163,7 +164,7 @@ namespace LojaABC
         private System.Windows.Forms.RadioButton rdbCodigo;
         private System.Windows.Forms.Label lbldescriçao;
         private System.Windows.Forms.ListBox ltbPesquisar;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtDescricao;
         private System.Windows.Forms.Button btnPesquisar;
     }
 }

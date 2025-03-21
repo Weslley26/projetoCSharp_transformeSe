@@ -397,7 +397,7 @@ namespace LojaABC
             // txtEmail
             // 
             this.txtEmail.Location = new System.Drawing.Point(523, 25);
-            this.txtEmail.MaxLength = 10;
+            this.txtEmail.MaxLength = 30;
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(237, 26);
             this.txtEmail.TabIndex = 6;
@@ -414,7 +414,7 @@ namespace LojaABC
             // txtNome
             // 
             this.txtNome.Location = new System.Drawing.Point(253, 25);
-            this.txtNome.MaxLength = 10;
+            this.txtNome.MaxLength = 30;
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(204, 26);
             this.txtNome.TabIndex = 3;
@@ -524,7 +524,7 @@ namespace LojaABC
             this.txtEstado.Location = new System.Drawing.Point(630, 66);
             this.txtEstado.Name = "txtEstado";
             this.txtEstado.Size = new System.Drawing.Size(100, 26);
-            this.txtEstado.TabIndex = 34;
+            this.txtEstado.TabIndex = 20;
             // 
             // lblEstado
             // 
@@ -538,10 +538,11 @@ namespace LojaABC
             // txtCidade
             // 
             this.txtCidade.Location = new System.Drawing.Point(350, 66);
-            this.txtCidade.MaxLength = 10;
+            this.txtCidade.MaxLength = 30;
             this.txtCidade.Name = "txtCidade";
             this.txtCidade.Size = new System.Drawing.Size(204, 26);
             this.txtCidade.TabIndex = 32;
+            this.txtCidade.TextChanged += new System.EventHandler(this.txtCidade_TextChanged);
             // 
             // lblCidade
             // 
@@ -555,7 +556,7 @@ namespace LojaABC
             // txtComplemento
             // 
             this.txtComplemento.Location = new System.Drawing.Point(127, 66);
-            this.txtComplemento.MaxLength = 10;
+            this.txtComplemento.MaxLength = 30;
             this.txtComplemento.Name = "txtComplemento";
             this.txtComplemento.Size = new System.Drawing.Size(147, 26);
             this.txtComplemento.TabIndex = 30;
@@ -579,7 +580,7 @@ namespace LojaABC
             // txtLogradouro
             // 
             this.txtLogradouro.Location = new System.Drawing.Point(124, 22);
-            this.txtLogradouro.MaxLength = 10;
+            this.txtLogradouro.MaxLength = 30;
             this.txtLogradouro.Name = "txtLogradouro";
             this.txtLogradouro.Size = new System.Drawing.Size(204, 26);
             this.txtLogradouro.TabIndex = 21;
@@ -835,6 +836,7 @@ namespace LojaABC
             this.btnExcluir.Text = "&Excluir";
             this.btnExcluir.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnExcluir.UseVisualStyleBackColor = true;
+            this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
             // 
             // btnLimpar
             // 
@@ -858,6 +860,7 @@ namespace LojaABC
             this.btnPesquisar.Text = "&Pesquisar";
             this.btnPesquisar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnPesquisar.UseVisualStyleBackColor = true;
+            this.btnPesquisar.Click += new System.EventHandler(this.btnPesquisar_Click);
             // 
             // btnVoltar
             // 
