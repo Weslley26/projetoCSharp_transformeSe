@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\wesley.sjesus7\\Documents\\Visual Studio 2022\\projetoCSharp_transformeSe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{56757C5D-3FE6-4759-963F-36F6D92D1AB6}|Calculadora\\Calculadora.csproj|c:\\users\\wesley.sjesus7\\documents\\visual studio 2022\\projetocsharp_transformese\\calculadora\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{56757C5D-3FE6-4759-963F-36F6D92D1AB6}|Calculadora\\Calculadora.csproj|solutionrelative:calculadora\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{36B0867A-2BB5-4F56-B911-8C1FFE9A5A92}|FolhaDePagamento\\FolhaDePagamento.csproj|c:\\users\\wesley.sjesus7\\documents\\visual studio 2022\\projetocsharp_transformese\\folhadepagamento\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{36B0867A-2BB5-4F56-B911-8C1FFE9A5A92}|FolhaDePagamento\\FolhaDePagamento.csproj|solutionrelative:folhadepagamento\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00F19F05-0B94-4314-8963-40AE532852C5}|LojaABC\\LojaABC.csproj|c:\\users\\wesley.sjesus7\\documents\\visual studio 2022\\projetocsharp_transformese\\lojaabc\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{00F19F05-0B94-4314-8963-40AE532852C5}|LojaABC\\LojaABC.csproj|solutionrelative:lojaabc\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36B0867A-2BB5-4F56-B911-8C1FFE9A5A92}|FolhaDePagamento\\FolhaDePagamento.csproj|c:\\users\\wesley.sjesus7\\documents\\visual studio 2022\\projetocsharp_transformese\\folhadepagamento\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36B0867A-2BB5-4F56-B911-8C1FFE9A5A92}|FolhaDePagamento\\FolhaDePagamento.csproj|solutionrelative:folhadepagamento\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,18 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmCalculadora.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\wesley.sjesus7\\Documents\\Visual Studio 2022\\projetoCSharp_transformeSe\\Calculadora\\frmCalculadora.cs",
-              "RelativeDocumentMoniker": "Calculadora\\frmCalculadora.cs",
-              "ToolTip": "C:\\Users\\wesley.sjesus7\\Documents\\Visual Studio 2022\\projetoCSharp_transformeSe\\Calculadora\\frmCalculadora.cs [Design]",
-              "RelativeToolTip": "Calculadora\\frmCalculadora.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "frmFuncionarios.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\wesley.sjesus7\\Documents\\Visual Studio 2022\\projetoCSharp_transformeSe\\LojaABC\\frmFuncionarios.cs",
+              "RelativeDocumentMoniker": "LojaABC\\frmFuncionarios.cs",
+              "ToolTip": "C:\\Users\\wesley.sjesus7\\Documents\\Visual Studio 2022\\projetoCSharp_transformeSe\\LojaABC\\frmFuncionarios.cs [Design]",
+              "RelativeToolTip": "LojaABC\\frmFuncionarios.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T20:09:03.484Z",
+              "WhenOpened": "2025-03-27T20:06:52.503Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\wesley.sjesus7\\Documents\\Visual Studio 2022\\projetoCSharp_transformeSe\\FolhaDePagamento\\Program.cs",
+              "RelativeDocumentMoniker": "FolhaDePagamento\\Program.cs",
+              "ToolTip": "C:\\Users\\wesley.sjesus7\\Documents\\Visual Studio 2022\\projetoCSharp_transformeSe\\FolhaDePagamento\\Program.cs",
+              "RelativeToolTip": "FolhaDePagamento\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T20:01:45.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\wesley.sjesus7\\Documents\\Visual Studio 2022\\projetoCSharp_transformeSe\\FolhaDePagamento\\Form1.cs",
+              "RelativeDocumentMoniker": "FolhaDePagamento\\Form1.cs",
+              "ToolTip": "C:\\Users\\wesley.sjesus7\\Documents\\Visual Studio 2022\\projetoCSharp_transformeSe\\FolhaDePagamento\\Form1.cs [Design]",
+              "RelativeToolTip": "FolhaDePagamento\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T19:59:54.514Z",
               "EditorCaption": " [Design]"
             }
           ]
