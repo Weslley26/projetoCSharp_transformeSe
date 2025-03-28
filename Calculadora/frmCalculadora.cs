@@ -21,5 +21,20 @@ namespace Calculadora
         {
 
         }
+
+        private void buttonLimpar_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void buttonCalcular_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rdbMultiplicar_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
