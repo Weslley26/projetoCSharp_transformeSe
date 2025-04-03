@@ -38,12 +38,6 @@ namespace LojaABC
         }
 
 
-        private void radioButton2_CheckedChanged(object sender, EventArgs e)
-        {
-
-
-        }
-
         private void frmPesquisarFuncionarios_Load(object sender, EventArgs e)
         {
             IntPtr hMenu = GetSystemMenu(this.Handle, false);
@@ -57,24 +51,64 @@ namespace LojaABC
             //executando o método limpar campos 
             LimpaCampos();
         }
+
+        //habilitar campos 
+        public void habilitarCampos()
+        {
+            txtDescricao.Enabled = true;
+            btnPesquisar.Enabled = true;
+            btnLimpar.Enabled = true;
+            txtDescricao.Clear();
+            txtDescricao.Focus();
+            txtDescricao.Enabled = true;
+        }
+
         //criando o método limpar campos 
         public void LimpaCampos()
         {
-            rdbCodigo.Checked = false ;
-            rdbNome.Checked = false ;
+            rdbCodigo.Checked = false;
+            rdbNome.Checked = false;
             ltbPesquisar.Items.Clear();
             txtDescricao.Clear();
             txtDescricao.Focus();
+            txtDescricao.Enabled = false;
+        }
+        public void LimpaCampos_pesquisar()
+        {
+            rdbCodigo.Checked = false;
+            rdbNome.Checked = false;
+          
+            txtDescricao.Clear();
+            txtDescricao.Focus();
+            txtDescricao.Enabled = false;
         }
 
         private void btnPesquisar_Click(object sender, EventArgs e)
         {
-            ltbPesquisar.Items.Add(txtDescricao.Text);
             ltbPesquisar.Items.Clear();
+            ltbPesquisar.Items.Add(txtDescricao.Text);
+
+            LimpaCampos_pesquisar();
         }
 
-        private void txtDescricao_TextChanged(object sender, EventArgs e)
+
+
+        private void rdbCodigo_CheckedChanged(object sender, EventArgs e)
         {
+            habilitarCampos();
+        }
+
+        private void rdbNome_CheckedChanged(object sender, EventArgs e)
+        {
+            habilitarCampos();
+        }
+
+        private void ltbPesquisar_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string descricao = ltbPesquisar.SelectedItem.ToString();
+            frmFuncionarios abrir = new frmFuncionarios(descricao);
+            abrir.Show();
+            this.Hide();
 
         }
     }

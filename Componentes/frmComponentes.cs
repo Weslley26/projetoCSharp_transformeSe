@@ -17,11 +17,6 @@ namespace Componentes
             InitializeComponent();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void txtNone_TextChanged(object sender, EventArgs e)
         {
 
@@ -49,51 +44,54 @@ namespace Componentes
         private void ckbLivros_CheckedChanged(object sender, EventArgs e)
         {
 
-            if (ckbLivros.Checked)
-            {
-                ltbListarProdutos.Items.Add("Livros");
-            }
-            else
-            {
-                ltbListarProdutos.Items.RemoveAt(0);
-            }
         }
 
         private void ckbComputador_CheckedChanged(object sender, EventArgs e)
         {
-            if (ckbLivros.Checked)
-            {
-                ltbListarProdutos.Items.Add("Computador");
-            }
-            else
-            {
-                ltbListarProdutos.Items.RemoveAt(0);
-            }
 
         }
 
         private void ckbMesa_CheckedChanged(object sender, EventArgs e)
         {
-            if (ckbMesa.Checked)
-            {
-                ltbListarProdutos.Items.Add("Mesa");
-            }
-            else
-            {
-                ltbListarProdutos.Items.RemoveAt(0);
-            }
+
         }
 
         private void ckbBanana_CheckedChanged(object sender, EventArgs e)
         {
-            if (ckbBanana.Checked)
+
+        }
+
+        private void btnCarregar_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog ofd = new OpenFileDialog();
+            ofd.Title = "salecione um imagem";
+            ofd.Title = "documentos|*.jpg;*.jpeg;*.png;*.bmp|todos os arquivos|*.*";
+            if (ofd.ShowDialog() == DialogResult.OK)
             {
-                ltbListarProdutos.Items.Add("Banana");
+                pcbImagens.ImageLocation = ofd.FileName;
+                pcbImagens.Load();
             }
-            else
-            {
-                ltbListarProdutos.Items.RemoveAt(0);
-            }
+        }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+        
+
+        private void btnLimpar_Click(object sender, EventArgs e)
+        {
+          
+        }
+
+        private void btnSair_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnLimpar_Click_1(object sender, EventArgs e)
+        {
+            pcbImagens.Image = null;
         }
     }
 }
