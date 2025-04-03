@@ -115,6 +115,10 @@
             this.rdbMultiplicar.TabStop = true;
             this.rdbMultiplicar.Text = "Multiplicar";
             this.rdbMultiplicar.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
+=======
+            this.rdbMultiplicar.CheckedChanged += new System.EventHandler(this.rdbMultiplicar_CheckedChanged);
+>>>>>>> 2d97ef9801ab9ca7fafd4a25be24c302f715504b
             // 
             // rdbSubtrair
             // 

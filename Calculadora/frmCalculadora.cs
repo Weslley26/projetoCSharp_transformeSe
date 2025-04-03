@@ -35,6 +35,7 @@ namespace Calculadora
 
         }
 
+<<<<<<< HEAD
         private void buttonCalcular_Click(object sender, EventArgs e)
         {
             try
@@ -123,6 +124,21 @@ namespace Calculadora
         private void buttonSair_Click(object sender, EventArgs e)
         {
             Application.Exit();
+=======
+        private void buttonLimpar_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void buttonCalcular_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rdbMultiplicar_CheckedChanged(object sender, EventArgs e)
+        {
+
+>>>>>>> 2d97ef9801ab9ca7fafd4a25be24c302f715504b
         }
     }
 }

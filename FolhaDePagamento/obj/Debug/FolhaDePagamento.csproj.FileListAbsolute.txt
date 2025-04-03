@@ -1,0 +1,10 @@
+C:\Users\wesley.sjesus7\Documents\Visual Studio 2022\projetoCSharp_transformeSe\FolhaDePagamento\bin\Debug\FolhaDePagamento.exe.config
+C:\Users\wesley.sjesus7\Documents\Visual Studio 2022\projetoCSharp_transformeSe\FolhaDePagamento\bin\Debug\FolhaDePagamento.exe
+C:\Users\wesley.sjesus7\Documents\Visual Studio 2022\projetoCSharp_transformeSe\FolhaDePagamento\bin\Debug\FolhaDePagamento.pdb
+C:\Users\wesley.sjesus7\Documents\Visual Studio 2022\projetoCSharp_transformeSe\FolhaDePagamento\obj\Debug\FolhaDePagamento.csproj.AssemblyReference.cache
+C:\Users\wesley.sjesus7\Documents\Visual Studio 2022\projetoCSharp_transformeSe\FolhaDePagamento\obj\Debug\FolhaDePagamento.form1FolhaDePagamento.resources
+C:\Users\wesley.sjesus7\Documents\Visual Studio 2022\projetoCSharp_transformeSe\FolhaDePagamento\obj\Debug\FolhaDePagamento.Properties.Resources.resources
+C:\Users\wesley.sjesus7\Documents\Visual Studio 2022\projetoCSharp_transformeSe\FolhaDePagamento\obj\Debug\FolhaDePagamento.csproj.GenerateResource.cache
+C:\Users\wesley.sjesus7\Documents\Visual Studio 2022\projetoCSharp_transformeSe\FolhaDePagamento\obj\Debug\FolhaDePagamento.csproj.CoreCompileInputs.cache
+C:\Users\wesley.sjesus7\Documents\Visual Studio 2022\projetoCSharp_transformeSe\FolhaDePagamento\obj\Debug\FolhaDePagamento.exe
+C:\Users\wesley.sjesus7\Documents\Visual Studio 2022\projetoCSharp_transformeSe\FolhaDePagamento\obj\Debug\FolhaDePagamento.pdb
